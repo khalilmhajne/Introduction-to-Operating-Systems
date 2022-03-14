@@ -1,0 +1,7 @@
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Simulator.csproj.CoreCompileInputs.cache
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Simulator.exe.config
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Simulator.exe
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Simulator.pdb
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Simulator.exe
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Simulator.pdb
+C:\Users\97252\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Simulator.csprojAssemblyReference.cache

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85E2BF51-3F08-4276-BC16-ED2855D2CCEC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SpreadsheetApp</RootNamespace>
+    <AssemblyName>SpreadsheetApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exchangeR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exchangeR.Designer.cs">
+      <DependentUpon>exchangeR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exchangeC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exchangeC.Designer.cs">
+      <DependentUpon>exchangeC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShareableSpreadSheet.cs" />
+    <Compile Include="SpreadSheet App.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpreadSheet App.Designer.cs">
+      <DependentUpon>SpreadSheet App.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Row.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Row.Designer.cs">
+      <DependentUpon>Add Row.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add column.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add column.Designer.cs">
+      <DependentUpon>Add column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="set Cell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="set Cell.Designer.cs">
+      <DependentUpon>set Cell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exchangeR.resx">
+      <DependentUpon>exchangeR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exchangeC.resx">
+      <DependentUpon>exchangeC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpreadSheet App.resx">
+      <DependentUpon>SpreadSheet App.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Row.resx">
+      <DependentUpon>Add Row.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add column.resx">
+      <DependentUpon>Add column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="set Cell.resx">
+      <DependentUpon>set Cell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="background.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\bin\Debug\SpreadsheetApp.exe.config
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\bin\Debug\SpreadsheetApp.exe
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\bin\Debug\SpreadsheetApp.pdb
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.Properties.Resources.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.csproj.GenerateResource.cache
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.csproj.CoreCompileInputs.cache
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.exe
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.pdb
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.Form1.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.csprojAssemblyReference.cache
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.Form2.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.Form3.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.Form4.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.Search.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.About.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.exchangeR.resources
+C:\Users\97252\source\repos\SpreadsheetApp\SpreadsheetApp\obj\Debug\SpreadsheetApp.exchangeC.resources
